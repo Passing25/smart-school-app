@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../Styles/in_pa.css">
+</head>
+<body >
+  <header class="back">
+    <div class="container">
+      <nav class="nav-bar">
+        <div class="toggle-menu">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-list-item centre">
+            <a href="" class="nav-link">
+              <img src="../Images/logo.jpeg" width="60" height="auto" class="centre">
+            </a>
+          </li>
+          <li class="nav-list-item">
+            <p class="nav-link centre"><a href="ac_ad.html" style="color: white; text-decoration: none;"> Accueil</a></p>
+          </li>
+          <li class="nav-list-item">
+            <img src="../Images/plus.png" width="40" height="auto"><a href="in_et.html" class="nav-link logo">Ajouter un Etudiant</a>
+          </li>
+          <li class="nav-list-item">
+            <img src="../Images/student.png" width="30" height="auto"><a href="list_et.php" class="nav-link A3">Gestion des Etudiants</a>
+          </li>
+          <li class="nav-list-item">
+            <img src="../Images/settin2.png" width="30" height="auto" class="im"><p class="nav-link A1 log">Parametre et Securite</p>
+          </li>
+          <li class="nav-list-item">
+            <img src="../Images/user.png" width="40" height="auto"><a href="" class="nav-link logo">Ajouter un Parent</a>
+          </li>
+          <li class="nav-list-item">
+            <img src="../Images/user.png" width="40" height="auto"><a href="list_pa.php" class="nav-link logo">Gestion des Parents</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="deconnexion">
+    <img src="../Images/logout.png" alt="logout image"><span>Deconnexion</span>
+  </div>
+  <form action="../Php/in_pa.php" method="post">
+  <div class="form">
+    <div class="title">Inscription</div>
+    <div class="subtitle">Enregistrer un parent</div>
+
+    <div class="input-container ic1">
+      <input placeholder="" type="text" class="input" id="firstname" name="nom">
+      <div class="cut"></div>
+      <label class="iLabel" for="firstname">Nom</label>
+    </div>
+
+    <div class="input-container ic2">
+      <input placeholder="" type="text" class="input" id="lastname" name="prenom">
+      <div class="cut"></div>
+      <label class="iLabel" for="lastname">Prenom</label>
+    </div>
+    <div class="input-container ic2">
+      <input placeholder="" type="text" class="input" id="email" name="email">
+      <div class="cut cut-short"></div>
+      <label class="iLabel" for="email">Email</label>
+    </div>
+    <div class="input-container ic2">
+      <input placeholder="" type="password" class="input" id="email" name="mot_de_passe">
+      <div class="cut cut-short"></div>
+      <label class="iLabel" for="email">Mot de Passe</label>
+    </div>
+    <div class="input-container ic2">
+      <input placeholder="" type="tel" class="input" id="email" name="telephone">
+      <div class="cut cut-short"></div>
+      <label class="iLabel" for="email">Telephone</label>
+    </div>
+    <button class="submit" type="text">submit</button>
+  </div>
+ </form>
+  <footer class="foot">
+    <p>Copyright © 2023 Code4berry. All rights reserved.</p>
+  </footer>
+  <script>
+    const toggleButton = document.querySelector('.toggle-menu');
+    const navBar = document.querySelector('.nav-bar');
+    toggleButton.addEventListener('click', () => {
+      navBar.classList.toggle('toggle');
+    });
+  </script>
+</body>
+</html>

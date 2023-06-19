@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../Styles/in_et.css">
+</head>
+<body >
+  <header class="back">
+    <div class="container">
+      <nav class="nav-bar">
+        <div class="toggle-menu">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-list-item centre">
+            <a href="" class="nav-link">
+              <img src="../Images/logo.jpeg" width="60" height="auto" class="centre">
+            </a>
+          </li>
+          <li class="nav-list-item">
+            <p class="nav-link centre"><a href="ac_ad.html" style="color: white; text-decoration: none;"> Accueil</a></p>
+          </li>
+          <li class="nav-list-item">
+            <img src="../Images/plus.png" width="40" height="auto"><a href="" class="nav-link logo">Ajouter un Etudiant</a>
+          </li>
+          <li class="nav-list-item">
+            <img src="../Images/student.png" width="30" height="auto"><a href="list_et.php" class="nav-link A3">Gestion des Etudiants</a>
+          </li>
+          <li class="nav-list-item">
+            <img src="../Images/settin2.png" width="30" height="auto" class="im"><p class="nav-link A1 log">Parametre et Securite</p>
+          </li>
+          <li class="nav-list-item">
+            <img src="../Images/user.png" width="40" height="auto"><a href="in_pa.html" class="nav-link logo">Ajouter un Parent</a>
+          </li>
+          <li class="nav-list-item">
+            <img src="../Images/user.png" width="40" height="auto"><a href="list_pa.php" class="nav-link logo">Gestion des Parents</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="deconnexion">
+    <img src="../Images/logout.png" alt="logout image"><span><a href="../index.html" style="text-decoration: none;color: black;"> Deconnexion</a></span>
+  </div>
+  <form class="form forme" method="post" action="../Php/in_et.php">
+    <p class="title">Inscription </p>
+    <p class="message">Inscrire un etudiant </p>
+        <div class="flex">
+        <label>
+            <input required="" placeholder="" type="text" class="input" name="nom">
+            <span>Nom</span>
+        </label>
+
+        <label>
+            <input required="" placeholder="" type="text" class="input" name="prenom">
+            <span>Prenom</span>
+        </label>
+    </div>  
+            
+    <label><span>Date de Naissance</span>
+        <input required="" placeholder="" type="date" class="input" name="date_de_naissance">
+        
+    </label> 
+
+    <label>
+      <select name="genre" id="" value="masculin ou feminin" class="input" required name="genre">
+        <option value="masculin"class="input" >masculin</option>
+        <option value="feminin" class="input">feminin</option>
+      </select>
+    </label>
+        
+    <label>
+        <input required="" placeholder="" type="text" class="input" name="classe">
+        <span>Classe</span>
+    </label>
+
+    <label>
+      <input required="" placeholder="" type="text" class="input" name="numero_serie">
+      <span>Numero de serie</span>
+  </label>
+
+    <label>
+        <input required="" placeholder="" type="email" class="input" name="email_parent">
+        <span>Email parent</span>
+    </label>
+
+    <label>
+      <input placeholder="Moyenne premier trimestre" type="number" class="input" name="moyenne_1">
+    </label>
+
+    <label>
+      <input placeholder="Moyenne deuxieme trimestre" type="number" class="input" name="moyenne_2" >
+    </label>
+
+  <label>
+    <input placeholder="Moyenne troisieme trimestre" type="number" class="input"  name="moyenne_3">
+  </label>
+
+    <button class="submit" type="submit">Enregistrer</button>
+</form>
+  <footer class="foot">
+    <p>Copyright © 2023 Code4berry. All rights reserved.</p>
+  </footer>
+  <script>
+    const toggleButton = document.querySelector('.toggle-menu');
+    const navBar = document.querySelector('.nav-bar');
+    toggleButton.addEventListener('click', () => {
+      navBar.classList.toggle('toggle');
+    });
+  </script>
+</body>
+</html>

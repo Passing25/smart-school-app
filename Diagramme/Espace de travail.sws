@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{607BA8BB-6EAC-4C2A-B2A2-18C2D42756AA}" Name="Définition de cas d&#39;utilisation smart_school" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Définition de cas d&#39;utilisation smart_school.moo"/>
+		<Model Expanded="Yes" ID="{6153B1F8-2F1B-4F40-A016-02C566599348}" Name="Diagramme de séquence UML_1" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagramme de séquence UML_1 smart_school.moo"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>
