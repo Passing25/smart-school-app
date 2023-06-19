@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{607BA8BB-6EAC-4C2A-B2A2-18C2D42756AA}" Label="" LastModificationDate="1686746987" Name="Définition de cas d&#39;utilisation smart_school" Objects="6" Symbols="20" Target="XML - Schema" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{607BA8BB-6EAC-4C2A-B2A2-18C2D42756AA}" Label="" LastModificationDate="1686567849" Name="Définition de cas d&#39;utilisation smart_school" Objects="6" Symbols="20" Target="XML - Schema" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1319,8 +1319,8 @@ Shadow=0</a:DisplayPreferences>
 <o:EllipseSymbol Id="o9">
 <a:Text>creer un compte</a:Text>
 <a:CreationDate>1686434210</a:CreationDate>
-<a:ModificationDate>1686746972</a:ModificationDate>
-<a:Rect>((-16500,-5850), (-10275,-9450))</a:Rect>
+<a:ModificationDate>1686434559</a:ModificationDate>
+<a:Rect>((-16425,-5100), (-10200,-8700))</a:Rect>
 <a:TextStyle>4130</a:TextStyle>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>128</a:LineColor>
@@ -1331,9 +1331,9 @@ Shadow=0</a:DisplayPreferences>
 </o:EllipseSymbol>
 <o:PolylineSymbol Id="o10">
 <a:CreationDate>1686434260</a:CreationDate>
-<a:ModificationDate>1686746978</a:ModificationDate>
-<a:Rect>((-21825,-7350), (-16575,-7250))</a:Rect>
-<a:ListOfPoints>((-21825,-7350),(-16575,-7350))</a:ListOfPoints>
+<a:ModificationDate>1686434556</a:ModificationDate>
+<a:Rect>((-21750,-6900), (-16500,-6800))</a:Rect>
+<a:ListOfPoints>((-21750,-6900),(-16500,-6900))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:TextStyle>4130</a:TextStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
@@ -1484,9 +1484,9 @@ DISPNAME 0 Arial,8,N</a:FontList>
 </o:ActorSymbol>
 <o:ActorSymbol Id="o23">
 <a:CreationDate>1686434181</a:CreationDate>
-<a:ModificationDate>1686746987</a:ModificationDate>
+<a:ModificationDate>1686434236</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-25425,-9150), (-20626,-5551))</a:Rect>
+<a:Rect>((-25800,-8175), (-21001,-4576))</a:Rect>
 <a:LineColor>128</a:LineColor>
 <a:LineWidth>1</a:LineWidth>
 <a:FillColor>4210816</a:FillColor>
@@ -1558,7 +1558,7 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>XML Schema</a:Code>
 <a:CreationDate>1686433846</a:CreationDate>
 <a:Creator>Ibrahim</a:Creator>
-<a:ModificationDate>1686746957</a:ModificationDate>
+<a:ModificationDate>1686567849</a:ModificationDate>
 <a:Modifier>Ibrahim</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/xml_schm.xol</a:TargetModelURL>
 <a:TargetModelID>D826A73A-E160-11D2-B693-0008C7EA924D</a:TargetModelID>
